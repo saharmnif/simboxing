@@ -1,0 +1,37 @@
+Date : 2024-04-23T21:33:19.883Z, 1000001, Succès: 1000000 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-12T19:33:46.856Z, 1000001, Succès: 1000000 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-12T20:05:41.465Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-12T20:05:42.943Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR_DETAIL.csv
+Date : 2024-05-12T20:20:48.840Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-12T20:20:49.505Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR_DETAIL.csv
+Date : 2024-05-13T13:21:20.104Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-13T13:21:20.906Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR_DETAIL.csv
+Date : 2024-05-13T13:30:53.586Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-13T13:30:54.084Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR_DETAIL.csv
+Date : 2024-05-13T14:36:03.750Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR.csv
+Date : 2024-05-13T14:36:04.214Z, 1, Succès: 0 lignes insérées avec succès pour le fichier : ../backend/Data/MSC_CDR_DETAIL.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 1.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 2.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 3.csv
+Erreur lors de la lecture du dossier : la relation « imported_files » n'existe pas
+Erreur lors de la lecture du dossier : la relation « imported_files » n'existe pas
+Erreur lors de la lecture du dossier : la relation « imported_files » n'existe pas
+Erreur lors de la lecture du dossier : la relation « imported_files » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Erreur lors de la lecture du dossier : la colonne « filename » n'existe pas
+Importation des données terminée pour le fichier : ../backend/Data/msc 1.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 2.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 3.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 1.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 2.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 3.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 1.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 2.csv
+Importation des données terminée pour le fichier : ../backend/Data/msc 3.csv
