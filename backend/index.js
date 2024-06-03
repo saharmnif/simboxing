@@ -10,7 +10,7 @@ const fs = require('fs');
 const csvParser = require('csv-parser');
 const cheminDossier = '../backend/Data';
 const ConnexionPostgreSQL = require('../backend/src/Models/ConnexionPostgreSQL');
-const Hotlist = require('../backend/src/Models/hotlist'); // Corrected import
+const HotlistFraud = require('../backend/src/Models/Hotlistfraud');
 
 const app = express();
 const port = 3500;
@@ -36,14 +36,26 @@ importeur.importerDonneesDossier(cheminDossier).then(() => {
   console.error('Erreur lors de l\'importation des données:', error.message);
 });
 
-// Hotlist
-const hotlist = new Hotlist(pool);
+// HotlistFraud 
+// Créer une instance de Hotlistfraud
+const hotlistFraud = new HotlistFraud(pool);
 
-hotlist.insertCellIdFromDetail().then(insertedRows => {
-  console.log('Inserted rows:', insertedRows);
-}).catch(err => {
-  console.error('Error inserting cell_id:', err);
+// Appeler la méthode insererCellIdDeTRegionDansTHotlist
+hotlistFraud.insererCellIdDeTRegionDansTHotlist().then((message) => {
+  console.log(message);
+}).catch((error) => {
+  console.error(error.message);
 });
+
+// // Hotlist
+// const hotlist = new Hotlist(pool);
+
+// hotlist.insertCellIdFromDetail().then(insertedRows => {
+//   console.log('Inserted rows:', insertedRows);
+// }).catch(err => {
+//   console.error('Error inserting cell_id:', err);
+// });
+
 //Detection
 (async () => {
   try {

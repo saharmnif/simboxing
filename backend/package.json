@@ -16,6 +16,7 @@
     "csv-writer": "^1.6.0",
     "express": "^4.19.1",
     "ftp-client": "^0.2.2",
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "react-simple-maps": "^3.0.0"
   }
 }
